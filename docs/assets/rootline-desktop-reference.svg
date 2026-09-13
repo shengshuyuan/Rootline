@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Rootline desktop family tree workspace reference</title>
+  <desc id="desc">A warm-white three-column desktop interface with toolbar, family overview, relationship canvas, and person detail panel.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#EDE7DD" stroke-width="1"/></pattern>
+    <style>
+      .ui { font-family: Inter, 'Noto Sans SC', Arial, sans-serif; fill:#1C1B18 }
+      .muted { font-family: Inter, 'Noto Sans SC', Arial, sans-serif; fill:#6F6A62 }
+      .tiny { font-family: Inter, 'Noto Sans SC', Arial, sans-serif; font-size:11px; fill:#6F6A62 }
+      .label { font-family: Inter, 'Noto Sans SC', Arial, sans-serif; font-size:12px; font-weight:600; fill:#1C1B18 }
+      .name { font-family: Inter, 'Noto Sans SC', Arial, sans-serif; font-size:15px; font-weight:700; fill:#1C1B18 }
+    </style>
+  </defs>
+  <rect width="1440" height="900" fill="#F7F3EB"/>
+  <rect x="0" y="0" width="1440" height="56" fill="#FFFDFC"/>
+  <path d="M0 56H1440" stroke="#E5DED3"/>
+  <rect x="24" y="17" width="23" height="23" rx="7" fill="#FF642B"/>
+  <path d="M31 28h10M36 23v10" stroke="#FFFDF8" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="60" y="29" class="ui" font-size="16" font-weight="700">族源 Rootline</text>
+  <text x="196" y="29" class="muted" font-size="12">盛氏家族 · 本地族谱</text>
+  <rect x="520" y="13" width="178" height="31" rx="7" fill="#F2EEE7"/>
+  <rect x="523" y="16" width="83" height="25" rx="5" fill="#FFFDFC"/>
+  <text x="546" y="33" class="label">主脉视图</text><text x="622" y="33" class="tiny">完整亲缘</text>
+  <rect x="900" y="13" width="190" height="31" rx="7" fill="#FFFDFC" stroke="#E5DED3"/>
+  <circle cx="919" cy="28" r="5" fill="none" stroke="#6F6A62" stroke-width="1.5"/><path d="M923 32l4 4" stroke="#6F6A62" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="938" y="33" class="tiny">搜索家族成员</text>
+  <text x="1120" y="33" class="tiny">已保存</text><circle cx="1109" cy="28" r="4" fill="#2F7D5A"/>
+  <text x="1180" y="33" class="label">导出</text><text x="1226" y="33" class="label">导入</text>
+  <rect x="1275" y="12" width="141" height="33" rx="7" fill="#FF642B"/><text x="1301" y="33" font-family="Inter, 'Noto Sans SC', Arial" font-size="12" font-weight="700" fill="#FFFDF8">+ 添加人物</text>
+  <rect x="0" y="56" width="232" height="844" fill="#FFFDFC"/><path d="M232 56V900" stroke="#E5DED3"/>
+  <text x="24" y="88" class="tiny">当前族谱</text><text x="24" y="112" class="ui" font-size="18" font-weight="700">盛氏家族</text>
+  <rect x="24" y="132" width="184" height="72" rx="8" fill="#F7F3EB"/><text x="40" y="158" class="tiny">已录入人物</text><text x="40" y="185" class="ui" font-size="24" font-weight="700">28</text><text x="110" y="158" class="tiny">代际</text><text x="110" y="185" class="ui" font-size="24" font-weight="700">4</text><text x="164" y="158" class="tiny">家庭</text><text x="164" y="185" class="ui" font-size="24" font-weight="700">9</text>
+  <text x="24" y="242" class="tiny">快速定位</text>
+  <rect x="16" y="255" width="200" height="48" rx="7" fill="#FFF1EB"/><rect x="16" y="255" width="3" height="48" rx="2" fill="#FF642B"/><text x="32" y="277" class="label">盛明远</text><text x="32" y="293" class="tiny">中心人物 · 第 2 代</text>
+  <text x="32" y="334" class="label">盛启山</text><text x="32" y="351" class="tiny">父亲 · 第 3 代</text>
+  <text x="32" y="393" class="label">盛昭华</text><text x="32" y="410" class="tiny">女儿 · 第 1 代</text>
+  <path d="M24 446H208" stroke="#E5DED3"/><text x="24" y="478" class="tiny">画布工具</text>
+  <rect x="24" y="493" width="88" height="31" rx="7" fill="#FFFDFC" stroke="#E5DED3"/><text x="46" y="513" class="label">居中定位</text>
+  <rect x="120" y="493" width="88" height="31" rx="7" fill="#FFFDFC" stroke="#E5DED3"/><text x="143" y="513" class="label">展开分支</text>
+  <rect x="232" y="56" width="888" height="844" fill="url(#grid)"/>
+  <text x="264" y="88" class="tiny">中心人物：盛明远 · 已展开上下两代</text>
+  <g stroke="#A9A196" stroke-width="2" fill="none" stroke-linecap="round"><path d="M666 234H788"/><path d="M727 274V344"/><path d="M508 414H945"/><path d="M727 344V414"/><path d="M508 454V526"/><path d="M727 454V526"/><path d="M945 454V526"/><path d="M508 566V654"/><path d="M727 566V654"/></g>
+  <g>
+    <rect x="599" y="194" width="128" height="40" rx="10" fill="#FFFDFC" stroke="#D8D0C4"/><text x="615" y="217" class="name">盛文德</text><text x="615" y="230" class="tiny">1898 — 1974</text>
+    <rect x="788" y="194" width="128" height="40" rx="10" fill="#FFFDFC" stroke="#D8D0C4"/><text x="804" y="217" class="name">周素琴</text><text x="804" y="230" class="tiny">1902 — 1981</text>
+    <rect x="444" y="414" width="128" height="40" rx="10" fill="#FFFDFC" stroke="#D8D0C4"/><text x="460" y="437" class="name">盛启山</text><text x="460" y="450" class="tiny">父亲 · 1930 —</text>
+    <rect x="663" y="406" width="128" height="56" rx="10" fill="#FFFDF8" stroke="#FF642B" stroke-width="2"/><rect x="675" y="416" width="5" height="5" rx="2.5" fill="#FF642B"/><text x="689" y="431" class="name">盛明远</text><text x="689" y="448" class="tiny">中心人物 · 1962 —</text>
+    <rect x="881" y="414" width="128" height="40" rx="10" fill="#FFFDFC" stroke="#D8D0C4"/><text x="897" y="437" class="name">沈秋宁</text><text x="897" y="450" class="tiny">配偶 · 1964 —</text>
+    <rect x="444" y="526" width="128" height="40" rx="10" fill="#FFFDFC" stroke="#D8D0C4"/><text x="460" y="549" class="name">盛明川</text><text x="460" y="562" class="tiny">兄弟 · 1959 —</text>
+    <rect x="663" y="526" width="128" height="40" rx="10" fill="#FFFDFC" stroke="#D8D0C4"/><text x="679" y="549" class="name">盛昭华</text><text x="679" y="562" class="tiny">女儿 · 1988 —</text>
+    <rect x="881" y="526" width="128" height="40" rx="10" fill="#FFFDFC" stroke="#D8D0C4"/><text x="897" y="549" class="name">盛昭宁</text><text x="897" y="562" class="tiny">女儿 · 1991 —</text>
+  </g>
+  <rect x="653" y="654" width="148" height="36" rx="18" fill="#FFFDFC" stroke="#D8D0C4" stroke-dasharray="4 3"/><text x="677" y="676" class="tiny">展开后代（3 人）</text>
+  <rect x="1082" y="784" width="32" height="92" rx="8" fill="#FFFDFC" stroke="#E5DED3"/><text x="1094" y="808" class="ui" font-size="18">+</text><path d="M1090 829h16M1098 821v16" stroke="#6F6A62"/><text x="1094" y="858" class="ui" font-size="18">−</text>
+  <rect x="1120" y="56" width="320" height="844" fill="#FFFDFC"/><path d="M1120 56V900" stroke="#E5DED3"/>
+  <text x="1144" y="88" class="tiny">人物档案</text><text x="1144" y="119" class="ui" font-size="22" font-weight="700">盛明远</text><rect x="1144" y="134" width="67" height="24" rx="12" fill="#FFF1EB"/><text x="1158" y="150" font-family="Inter, 'Noto Sans SC', Arial" font-size="11" font-weight="700" fill="#C74617">中心人物</text>
+  <rect x="1360" y="95" width="56" height="30" rx="7" fill="#FFFDFC" stroke="#E5DED3"/><text x="1376" y="114" class="label">编辑</text>
+  <path d="M1144 181H1416" stroke="#E5DED3"/><text x="1144" y="211" class="tiny">基本信息</text><text x="1144" y="238" class="label">男</text><text x="1220" y="238" class="label">1962 年生</text><text x="1144" y="265" class="muted" font-size="12">浙江绍兴 · 资料完整</text>
+  <text x="1144" y="310" class="tiny">亲属关系</text><text x="1144" y="339" class="label">父亲</text><text x="1210" y="339" class="label">盛启山</text><text x="1144" y="368" class="label">配偶</text><text x="1210" y="368" class="label">沈秋宁</text><text x="1144" y="397" class="label">子女</text><text x="1210" y="397" class="label">盛昭华、盛昭宁</text>
+  <path d="M1144 426H1416" stroke="#E5DED3"/><text x="1144" y="456" class="tiny">添加关系</text>
+  <rect x="1144" y="472" width="128" height="34" rx="7" fill="#FFFDFC" stroke="#E5DED3"/><text x="1171" y="494" class="label">+ 添加父母</text>
+  <rect x="1288" y="472" width="128" height="34" rx="7" fill="#FFFDFC" stroke="#E5DED3"/><text x="1313" y="494" class="label">+ 添加子女</text>
+  <rect x="1144" y="518" width="272" height="34" rx="7" fill="#FFFDFC" stroke="#E5DED3"/><text x="1212" y="540" class="label">关联既有人物</text>
+  <rect x="1144" y="583" width="272" height="78" rx="8" fill="#F7F3EB"/><text x="1160" y="609" class="label">数据仅保存在此设备</text><text x="1160" y="632" class="tiny">建议定期导出 JSON 备份。</text><text x="1160" y="650" font-family="Inter, 'Noto Sans SC', Arial" font-size="12" font-weight="700" fill="#C74617">立即导出备份</text>
+</svg>

@@ -1,0 +1,22 @@
+# Local dependencies and build output
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+# Local tool state and credentials
+.vercel/
+.omx/
+.playwright-cli/
+.env
+.env.*
+!.env.example
+
+# Operating-system and editor files
+.DS_Store
+*.log
+
+# Private source material must stay outside version control
+*.pdf

@@ -1,0 +1,33 @@
+{
+  "name": "rootline",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc -b --pretty false",
+    "test": "vitest run",
+    "test:smoke": "npm run build && ROOTLINE_SMOKE_START=1 node scripts/smoke-browser.mjs",
+    "test:qa": "npm run build && ROOTLINE_SMOKE_START=1 node scripts/qa-browser.mjs",
+    "test:e2e": "npm run build && ROOTLINE_SMOKE_START=1 node scripts/e2e-browser.mjs"
+  },
+  "dependencies": {
+    "@xyflow/react": "^12.10.1",
+    "dexie": "^4.3.0",
+    "lunar-javascript": "^1.7.7",
+    "nanoid": "^5.1.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.28",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "playwright": "^1.49.0",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.19",
+    "vitest": "^2.1.9"
+  }
+}
